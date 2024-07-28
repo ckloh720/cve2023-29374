@@ -1,0 +1,4 @@
+streamlit
+langchain==0.0.141
+openai==0.28.0
+
