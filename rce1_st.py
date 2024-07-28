@@ -1,4 +1,4 @@
-mport pkg_resources
+import pkg_resources
 pkg_resources.require ("langchain==0.0.141")
 pkg_resources.require ("openai==0.28.0")
 
