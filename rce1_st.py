@@ -13,6 +13,8 @@ api_key = st.text_input('Enter your OpenAI API key:', type='password')
 if api_key:
     # Initialize OpenAI with the API key
     llm = OpenAI(openai_api_key=api_key)
+    llm.model_name = "gpt-3.5-turbo-instruct"
+    
     llm_math = LLMMathChain(llm=llm, verbose=True)
     
     # Input text box for user query
